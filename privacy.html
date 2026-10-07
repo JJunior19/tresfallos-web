@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3 Fallos — Política de privacidad</title>
+<meta name="description" content="Política de privacidad de 3 Fallos, app para preparar el examen teórico del permiso B.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #F7F6F3; color: #0E0F13; line-height: 1.65; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 1.9rem; letter-spacing: -0.5px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  .accent { color: #E63946; font-weight: 800; }
+  a { color: #B02833; }
+  table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #E4E2DC; border-radius: 12px; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #E4E2DC; vertical-align: top; }
+  th { background: #EFEEEA; }
+  tr:last-child td { border-bottom: none; }
+  footer { margin-top: 40px; color: #4A4D57; font-size: 0.9rem; }
+  .note { background: #fff; border: 1px solid #E4E2DC; border-radius: 12px; padding: 14px 18px; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="accent">3 Fallos</span> — Política de privacidad</h1>
+  <p>Fecha de entrada en vigor: 7 de octubre de 2026. Titular: Jorge Jr. Ccarhuas Aroni.</p>
+
+  <h2>Qué datos tratamos y por qué</h2>
+  <p><b>3 Fallos</b> es una app para preparar el examen teórico del permiso B. Tratamos la mínima cantidad de datos necesaria:</p>
+  <table>
+    <tr><th>Categoría</th><th>Datos</th><th>Finalidad</th><th>Proveedor</th></tr>
+    <tr><td>Identidad (opcional)</td><td>Si vinculas tu cuenta de Google: identificador de cuenta y uid</td><td>Guardar tu progreso en varios dispositivos ("guarda tu progreso"; nunca obligatorio)</td><td>Firebase Auth</td></tr>
+    <tr><td>Progreso de estudio</td><td>Resultados de tests agregados por tema, racha, tests realizados</td><td>Mostrar tu evolución y temas débiles; sincronizarlos entre dispositivos</td><td>Firestore (Firebase)</td></tr>
+    <tr><td>Anuncios (si no eres premium)</td><td>Identificador de publicidad, datos de interacción con anuncios</td><td>Mostrarte anuncios personalizados o no personalizados según tu elección de consentimiento</td><td>Google AdMob</td></tr>
+    <tr><td>Analítica de uso</td><td>Eventos de uso (tests completados, rachas, apertura de paywall)</td><td>Mejorar la app y medir qué funciones valen</td><td>Firebase Analytics</td></tr>
+    <tr><td>Diagnóstico</td><td>Informes de fallos y rendimiento</td><td>Detectar y corregir errores</td><td>Firebase Crashlytics</td></tr>
+    <tr><td>Compras</td><td>Identificadores de suscripción y estado premium</td><td>Activar Premium y permitir restaurar la compra</td><td>RevenueCat / App Store o Google Play</td></tr>
+  </table>
+
+  <h2>Cómo funciona el modo invitado</h2>
+  <p>No necesitas cuenta para usar 3 Fallos: al abrir la app creamos una sesión <b>anónima de Firebase</b> y tu progreso se guarda en tu dispositivo y se sincroniza con ese identificador anónimo. Si vinculas Google (opcional), ese mismo progreso pasa a tu cuenta sin perder nada.</p>
+
+  <h2>Consentimiento de anuncios (EEA)</h2>
+  <p>Si estás en el Espacio Económico Europeo (España), antes de mostrar anuncios te pedimos el consentimiento mediante el formulario de Google (UMP). Puedes cambiar tu elección en los ajustes del sistema o borrando los datos de la app.</p>
+
+  <h2>Conservación y borrado</h2>
+  <p>
+    · El progreso anónimo se conserva mientras uses la app. Al borrar la app, los datos locales desaparecen; los datos en la nube asociados al identificador anónimo se conservan hasta que los borremos por política de retención.<br>
+    · Para solicitar el borrado total de tus datos en la nube, escríbenos a <a href="mailto:hola@atendora.app">hola@atendora.app</a> indicando el identificador mostrado en Ajustes; los borraremos en un plazo máximo de 30 días.<br>
+    · Si vinculaste Google, puedes desconectar la app desde tu cuenta de Google (Permisos de terceros) y solicitarnos el borrado por el mismo cauce.
+  </p>
+
+  <h2>Terceros</h2>
+  <p>
+    · Google Firebase (Auth, Firestore, Crashlytics, Analytics) — términos de Google/Firebase.<br>
+    · Google AdMob — anuncios; ver política de Google.<br>
+    · RevenueCat — infraestructura de suscripciones.
+  </p>
+
+  <h2>Derechos</h2>
+  <p>Puedes ejercer acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <a href="mailto:hola@atendora.app">hola@atendora.app</a>. También puedes reclamar ante la Agencia Española de Protección de Datos.</p>
+
+  <h2>Menores</h2>
+  <p>La app no está dirigida a menores de 13 años y no recopilamos datos a sabiendas de menores de esa edad.</p>
+
+  <footer>
+    <a href="index.html">Volver a soporte</a> · <span class="accent">3 Fallos</span>
+  </footer>
+</main>
+</body>
+</html>
